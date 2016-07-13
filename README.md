@@ -7,6 +7,7 @@ Project use technology ASP.NET MVC WEB API
 
 Visual studio 2010
 ASP.NET Framework 4.6
+ENTITY Framework 6.1.3
 ASP.NET MVC 5
 Update-Package microsoft.aspnet.mvc -version 5.1.1
 ASP.NET WEB API 5
