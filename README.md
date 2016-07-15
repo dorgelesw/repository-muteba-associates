@@ -3,6 +3,20 @@
 cloud project with https://github.com/p7cSarl/repository-muteba-associates.git
 Project use technology ASP.NET MVC WEB API
 
+#Data base
+
+Use MS SQL Server 2012
+#create the data base and an user sql server authentification
+run the script "dbMutebaAssociate.sql"
+create the user "itp7c"
+https://www.supremainc.com/en/node/618
+itp7c
+itp7c
+
+#Data Access Layout
+Visual studio 2010
+ENTITY Framework 6.1.3
+
 #Tools
 
 Visual studio 2010
