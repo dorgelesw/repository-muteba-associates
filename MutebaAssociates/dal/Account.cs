@@ -11,12 +11,20 @@ namespace dal
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel.DataAnnotations;
+
     public partial class Account
     {
         public int AccountID { get; set; }
         public int UserID { get; set; }
+
+        [Required]
+        [Display(Name = "login")]
         public string Login { get; set; }
+
+        [Required]
+        [DataType(DataType.Password)]
+        [Display(Name = "password")]
         public string Password { get; set; }
     
         public virtual User User { get; set; }

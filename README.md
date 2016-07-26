@@ -36,3 +36,9 @@ KNOCKOUT PACKAGE
 Install-Package knockoutjs –version 3.1.0
 
 NB:Paste the commands above into nuget package console to update version used.
+
+#Authentification
+We are used owin package to manage authentification.
+Install-Package Microsoft.AspNet.Identity.Core (Microsoft.AspNet.Identity.Core.2.2.1 installed)
+Install-Package Microsoft.Owin.Security.Cookies (Microsoft.Owin.Security.Cookies.3.0.1 installed)
+Install-Package Microsoft.Owin.Host.SystemWeb (Microsoft.Owin.Host.SystemWeb.3.0.1 installed)
